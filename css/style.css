@@ -1,0 +1,135 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  min-height: 100%;
+  min-width: 100%;
+
+  background-color: #000;
+  background-image: url('../images/bookshelf.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#header-card {
+  position: absolute;
+  opacity: 0;
+}
+
+#main {
+  position: absolute;
+  margin-top: 135px;
+
+  width: 80%;
+
+  background-color: rgba(25, 25, 25, 1);
+
+  border-color: rgba(25, 25, 25, 1);
+  border-style: outset;
+
+  opacity: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#display-box {
+  padding: 25px 20px 25px 20px;
+
+  background-color: #fff;
+  border-width: 0px 0px 0px 15px;
+  border-style: solid;
+  border-color: #ccc;
+}
+
+#navbar {
+  position: relative;
+
+  width: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  font-weight: bold;
+}
+
+#search-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#search-text {
+  margin-left: 15px;
+}
+
+#search-icon {
+  margin-left: -10px;
+  color: #555;
+}
+
+#search-collapse-icon {
+  position: absolute;
+  right: 10px;
+  padding: 5px;
+}
+
+#search-collapse-icon:hover {
+  cursor: pointer;
+  color: #444;
+}
+
+#search-input {
+  margin-left: 20px;
+  width: 80%;
+}
+
+.nav-btn {
+  position: relative;
+  margin: 0px 15px 25px 15px;
+
+  width: 135px;
+  height: 40px;
+
+  padding: 15px;
+
+  font-size: 1.5em;
+
+  border-radius: 20px!important;
+}
+
+.nav-btn:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.horizontal-divider {
+  margin: 0px auto 20px auto;
+  width: 90%;
+  height: 0;
+  border-width: 2px 2px 0px 2px;
+  border-style: groove;
+  border-color: #001;
+}
+
+.card {
+  padding: 0px 25px 0px 25px;
+
+  background-color: #fff;
+  color: #000;
+  border-color: #aaa;
+
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.accordion {
+  opacity: 0;
+}

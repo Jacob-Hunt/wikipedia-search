@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Wikipedia Search</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/centering.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
+</head>
+
+
+<!-------------- Begin page body -------------->
+
+<body>
+
+  <!-------------- Divs -------------->
+  <div id="header-card" class="card center-x">
+    <h1 align="center">Wikipedia Search</h1>
+  </div>
+
+  <div id="main" class="center-x">
+
+    <div id="navbar" class="center-x">
+      <div id="search-bar" class="card button nav-btn">
+        <i id="search-icon" class="fa fa-search" aria-hidden="true"></i>
+        <span id="search-text">SEARCH</span>
+      </div>
+      <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+        <div id="rand-btn" class="card button nav-btn">
+          <span class="center-xy">RANDOM</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="horizontal-divider"></div>
+
+    <div id="display-box"></div>
+
+  </div>
+
+  <!-------------- JavaScript Libraries -------------->
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous">
+  </script>
+
+  <!-- jQuery UI -->
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+	  integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+	  crossorigin="anonymous"></script>
+  </script>
+
+  <!-- Modernizr -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js">
+  </script>
+
+  <!-- Velocity -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js">
+  </script>
+
+  <!-- Font Awesome -->
+  <script src='https://use.fontawesome.com/b1e5ec6ba4.js'>
+  </script>
+
+  <!-------------- Scripts -------------->
+  <script src='js/screenwidth.js'></script>
+  <script src='js/query.js'></script>
+  <script src='js/ui.js'></script>
+  <script src='js/divs.js'></script>
+  <script src='js/main.js'></script>
+  
+</body>
+</html>
+
