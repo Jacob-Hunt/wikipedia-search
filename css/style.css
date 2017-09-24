@@ -98,10 +98,20 @@ body {
   padding: 25px;
 
   min-height: 50px;
-  width: 100%;
+  width: 100vw;
 
   background-color: #111;
   color: #aaa;
+}
+
+#footer > p > a {
+  text-decoration: none;
+  color: #eee;
+}
+
+#footer > p > a:hover {
+  text-decoration: underline;
+  color: #fff;
 }
 
 .nav-btn {
