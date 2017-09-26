@@ -91,29 +91,17 @@ body {
 }
 
 #footer {
-  position: absolute;
-  top: 100%;
-  left: 0;
-
-  padding: 0px;
-
-  min-height: 50px;
-  width: 100%;
-
-  background-color: #111;
   color: #aaa;
+  padding-top: 30px;
+  margin-bottom: -25px;
 }
 
-#footer > p {
-  padding: 25px;
-}
-
-#footer > p > a {
+#footer > a {
   text-decoration: none;
   color: #eee;
 }
 
-#footer > p > a:hover {
+#footer > a:hover {
   text-decoration: underline;
   color: #fff;
 }
